@@ -1,0 +1,401 @@
+/* Fuente */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Configuración general */
+:root {
+  --font-color: #4b2e2e;
+}
+
+body {
+  font-family: "raleway", sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Menú de navegación */
+header {
+  background-color: #fff9e6;
+  color: var(--font-color);
+}
+
+header img {
+  height: 100px;
+}
+
+.navLinks {
+  list-style: none;
+}
+
+.navLinks li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--font-color);
+  font-size: 26px;
+}
+
+.navLinks li a:hover {
+  color: #298294;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown ul {
+  display: none;
+  position: absolute;
+  background-color: #fff9e6;
+  list-style: none;
+  z-index: 1000;
+}
+
+.dropdown:hover ul,
+.dropdown ul:hover {
+  display: block;
+}
+
+.dropdown ul li a {
+  text-decoration: none;
+  color: var(--font-color);
+  display: block;
+}
+
+/* Sección de bienvenida */
+.welcome {
+  background-color: rgba(255, 228, 196, 0.6);
+}
+
+.welcome h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: var(--font-color);
+  width: 550px;
+}
+
+.welcome img {
+  width: 100%;
+  max-width: 675px;
+  border-radius: 4px;
+}
+
+.welcome figcaption {
+  font-size: 10px;
+  font-weight: bolder;
+  color: rgba(75, 46, 46, 0.5);
+}
+
+.welcome figcaption a {
+  color: rgba(75, 46, 46, 0.5);
+}
+
+/* Subnavegación */
+
+.subNav {
+  width: 100%;
+}
+
+.subNav img {
+  width: 100%;
+  max-width: 675px;
+  opacity: 0.375;
+}
+
+.subNav figcaption {
+  font-size: 10px;
+  font-weight: bolder;
+  color: rgba(75, 46, 46, 0.5);
+}
+
+.subNav figcaption a {
+  color: rgba(75, 46, 46, 0.5);
+}
+
+.subNav h3,
+.subNav p,
+.subNav button {
+  color: var(--font-color);
+}
+
+.subNav h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.subNav p {
+  font-size: 20px;
+  max-width: 80%;
+}
+
+.subNav button {
+  background-color: #ffb343;
+  color: var(--font-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 280px;
+  height: 50px;
+}
+
+.subNav button a {
+  text-decoration: none;
+  color: var(--font-color);
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+.subNav button:hover {
+  background-color: #ffc46d;
+}
+
+.subNav button:hover a {
+  text-decoration: underline;
+}
+
+/* Sección de reviews */
+.reviews {
+  background-color: rgba(255, 228, 196, 0.6);
+}
+
+.review {
+  background-color: #ffffff;
+  min-width: 250px;
+  border: 3.5px solid #e0e0e0;
+  border-radius: 12px;
+  text-align: left;
+  width: 25%;
+}
+
+.review p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.review img {
+  height: 50px;
+  width: 50px;
+}
+
+.review p:last-of-type {
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #fff9e6;
+  color: var(--font-color);
+}
+
+footer img {
+  height: 100px;
+}
+
+footer .logosSociales img {
+  height: 40px;
+}
+
+footer p {
+  color: rgba(75, 46, 46, 0.5);
+}
+
+footer a {
+  color: #ffb703;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Desayunos, almuerzos y cenas */
+
+/* Welcome recetas */
+
+.welcomeRecetas {
+  background-color: #fff8dc;
+  height: 566.94px;
+}
+
+.welcomeRecetas h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: var(--font-color);
+  width: 800px;
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 5px solid #4b2e2e;
+}
+
+/* Estilo de recetas */
+
+.recipe {
+  background-color: #fff8dc;
+}
+
+.recipeImgContainer {
+  position: relative;
+  width: 40%;
+  border-radius: 8px;
+}
+
+.recipe img {
+  width: 100%;
+  max-width: 675px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.recipeCaption {
+  font-weight: bolder;
+  color: rgba(75, 46, 46, 0.5);
+  font-size: 10px;
+}
+
+.recipeCaption a {
+  color: rgba(75, 46, 46, 0.5);
+}
+
+.recipeDetails li,
+.recipeDetails p {
+  color: var(--font-color);
+  font-size: 16px;
+}
+
+.recipeContainer {
+  width: 55%;
+}
+
+.recipeTitle {
+  font-size: 48px;
+  color: var(--font-color);
+  font-weight: bolder;
+}
+
+.recipeDetails {
+  gap: 10px;
+}
+
+.ingredients,
+.procedure {
+  width: 50%;
+  line-height: 1.7;
+}
+
+.ingredients h3,
+.procedure h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--font-color);
+}
+
+.ingredientDivider {
+  width: 2px;
+  height: 35%;
+  background-color: var(--font-color);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Contacto */
+
+.welcomeContacto {
+  background-color: rgba(255, 228, 196, 0.6);
+}
+
+.sobreNosotros {
+  width: 50%;
+}
+
+.sobreNosotros h1 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: var(--font-color);
+}
+
+.sobreNosotros p {
+  font-size: 20px;
+  color: var(--font-color);
+}
+
+.welcomeContacto img {
+  width: 100%;
+  max-width: 675px;
+  border-radius: 4px;
+}
+
+.welcomeContacto figcaption {
+  font-size: 10px;
+  font-weight: bolder;
+  color: rgba(75, 46, 46, 0.5);
+}
+
+.welcomeContacto figcaption a {
+  color: rgba(75, 46, 46, 0.5);
+}
+
+/* Formulario de contacto */
+
+.formContainer {
+  background-color: rgba(255, 228, 196, 0.6);
+}
+
+.form {
+  width: 500px;
+  height: 488px;
+}
+
+.formContainer h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--font-color);
+}
+
+.form label {
+  font-size: 20px;
+  color: var(--font-color);
+}
+
+.form input {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  width: 100%;
+  height: 35px;
+  font-size: 16px;
+}
+
+.nameSurname input {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  width: 225px;
+  height: 35px;
+  font-size: 16px;
+}
+
+textarea {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  width: 100%;
+  font-size: 16px;
+  font-family: "raleway", sans-serif;
+}
+
+.submit {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: var(--font-color);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  cursor: pointer;
+}
