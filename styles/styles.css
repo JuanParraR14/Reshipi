@@ -2,6 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Configuración general */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 :root {
   --font-color: #4b2e2e;
 }
@@ -21,6 +30,10 @@ header {
 
 header img {
   height: 100px;
+}
+
+.gap {
+  gap: 80px;
 }
 
 .navLinks {
