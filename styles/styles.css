@@ -32,27 +32,17 @@ header img {
   height: 100px;
 }
 
-.gap {
-  gap: 80px;
-}
-
-.navLinks {
-  list-style: none;
-}
-
 .navLinks li a {
   text-decoration: none;
   font-weight: bold;
   color: var(--font-color);
   font-size: 26px;
+  font-family: "raleway", sans-serif
 }
 
 .navLinks li a:hover {
   color: #298294;
-}
-
-.dropdown {
-  position: relative;
+  background-color: #fff9e6 ;
 }
 
 .dropdown ul {
@@ -61,11 +51,6 @@ header img {
   background-color: #fff9e6;
   list-style: none;
   z-index: 1000;
-}
-
-.dropdown:hover ul,
-.dropdown ul:hover {
-  display: block;
 }
 
 .dropdown ul li a {
