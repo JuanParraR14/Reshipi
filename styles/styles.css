@@ -68,7 +68,7 @@ header img {
   font-size: 48px;
   font-weight: bolder;
   color: var(--font-color);
-  width: 550px;
+  width: 100%;
 }
 
 .welcome img {
