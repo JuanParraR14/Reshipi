@@ -153,26 +153,21 @@ header img {
 }
 
 .review {
-  background-color: #ffffff;
-  min-width: 250px;
-  border: 3.5px solid #e0e0e0;
   border-radius: 12px;
-  text-align: left;
-  width: 25%;
 }
 
-.review p {
-  font-size: 20px;
+.review .card-text {
+  font-size: 18px;
   font-weight: 600;
 }
 
-.review img {
-  height: 50px;
-  width: 50px;
+.review .icon {
+  font-size: 50px;
+  color: #6c757d;
 }
 
 .review p:last-of-type {
-  font-weight: bold;
+  font-size: 16px;
 }
 
 /* Footer */
