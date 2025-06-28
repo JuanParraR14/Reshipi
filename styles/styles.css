@@ -201,60 +201,35 @@ footer a:hover {
 
 /* Welcome recetas */
 
-.welcomeRecetas {
+.desayunos {
   background-color: #fff8dc;
-  height: 566.94px;
+}
+
+.welcomeRecetas {
+  height: 50vh;
 }
 
 .welcomeRecetas h1 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: bolder;
   color: var(--font-color);
-  width: 800px;
+  width: 700px;
 }
 
 .divider {
-  width: 100%;
   border-bottom: 5px solid #4b2e2e;
 }
 
 /* Estilo de recetas */
 
-.recipe {
-  background-color: #fff8dc;
-}
-
-.recipeImgContainer {
-  position: relative;
-  width: 40%;
-  border-radius: 8px;
-}
-
-.recipe img {
-  width: 100%;
-  max-width: 675px;
-  border-radius: 4px;
-  object-fit: cover;
-}
-
 .recipeCaption {
   font-weight: bolder;
-  color: rgba(75, 46, 46, 0.5);
-  font-size: 10px;
+  color: #fff8dc;
+  font-size: 0.8rem;
 }
 
 .recipeCaption a {
-  color: rgba(75, 46, 46, 0.5);
-}
-
-.recipeDetails li,
-.recipeDetails p {
-  color: var(--font-color);
-  font-size: 16px;
-}
-
-.recipeContainer {
-  width: 55%;
+  color: #fff8dc;
 }
 
 .recipeTitle {
@@ -263,30 +238,9 @@ footer a:hover {
   font-weight: bolder;
 }
 
-.recipeDetails {
-  gap: 10px;
-}
-
-.ingredients,
 .procedure {
-  width: 50%;
-  line-height: 1.7;
-}
-
-.ingredients h3,
-.procedure h3 {
-  font-size: 24px;
-  font-weight: bold;
+  font-family: "raleway", sans-serif;
   color: var(--font-color);
-}
-
-.ingredientDivider {
-  width: 2px;
-  height: 35%;
-  background-color: var(--font-color);
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 /* Contacto */
