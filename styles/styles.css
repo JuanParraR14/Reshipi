@@ -90,12 +90,21 @@ header img {
 /* Subnavegación */
 
 .subNav {
-  width: 100%;
+  overflow: hidden;
+}
+
+.subNav div {
+  height: 500px;
+  border: none;
+  border-radius: 0px;
+}
+
+.subNav div img {
+  border-radius: 0px;
 }
 
 .subNav img {
   width: 100%;
-  max-width: 675px;
   opacity: 0.375;
 }
 
@@ -110,44 +119,31 @@ header img {
 }
 
 .subNav h3,
-.subNav p,
-.subNav button {
+.subNav p {
   color: var(--font-color);
 }
 
 .subNav h3 {
-  font-size: 28px;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 .subNav p {
-  font-size: 20px;
-  max-width: 80%;
+  font-size: 1.25rem;
 }
 
-.subNav button {
+.btn.custom-btn {
   background-color: #ffb343;
   color: var(--font-color);
   border: none;
   border-radius: 5px;
-  cursor: pointer;
   transition: background-color 0.3s;
-  width: 280px;
-  height: 50px;
-}
-
-.subNav button a {
-  text-decoration: none;
-  color: var(--font-color);
-  font-size: 23px;
+  font-size: 1.5rem;
   font-weight: lighter;
 }
 
-.subNav button:hover {
+.btn.custom-btn:hover {
   background-color: #ffc46d;
-}
-
-.subNav button:hover a {
   text-decoration: underline;
 }
 
@@ -396,4 +392,40 @@ textarea {
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   color: #fff;
   cursor: pointer;
+}
+
+/* Media queries */
+
+@media (max-width: 991px) {
+  .welcome h1 {
+    font-size: 2.5rem;
+  }
+
+  .subNav div {
+    height: 375px;
+  }
+
+  .subNav img {
+    height: 100%;
+  }
+
+  .subNav h3 {
+  font-size: 2.15rem;
+  font-weight: bold;
+  }
+
+  .subNav p {
+  font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .subNav div {
+    height: auto;
+  }
 }
