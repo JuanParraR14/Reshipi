@@ -38,40 +38,50 @@
       </nav>
     </header>
     <main>
-      <section class="welcomeContacto">
-        <div class="sobreNosotros">
-          <h1>Sobre nosotros</h1>
-          <p>En Reshipi, creemos que la cocina es mucho más que preparar alimentos: es una forma de conectar con nuestras raíces, explorar nuevas culturas y compartir momentos especiales con quienes amamos. Nuestra misión es brindarte recetas sencillas y deliciosas, adaptadas a cada momento del día, para que disfrutes del arte de cocinar sin complicaciones. Ya sea que busques inspiración para desayunos energéticos, almuerzos llenos de sabor o cenas memorables, estamos aquí para acompañarte en tu aventura culinaria. ¡Bienvenido a nuestra comunidad de amantes de la cocina!</p>
-        </div>
-        <figure>
-          <img src="../assets/contacto.jpg" alt="Plato apetecible"/>
-          <figcaption>
-            Photo by <a href="https://unsplash.com/@fifthlane?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Peter Dawn</a> on <a href="https://unsplash.com/photos/a-chef-holding-a-plate-with-a-sandwich-and-chips-mM-L0yx5LcQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
-          </figcaption>
-        </figure>
+
+      <!-- Sección de bienvenida -->
+
+      <section class="container-fluid welcome py-5">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 text-center">
+            <h1>Sobre nosotros</h1>
+            <p>En Reshipi, creemos que la cocina es mucho más que preparar alimentos: es una forma de conectar con nuestras raíces, explorar nuevas culturas y compartir momentos especiales con quienes amamos. Nuestra misión es brindarte recetas sencillas y deliciosas, adaptadas a cada momento del día, para que disfrutes del arte de cocinar sin complicaciones. Ya sea que busques inspiración para desayunos energéticos, almuerzos llenos de sabor o cenas memorables, estamos aquí para acompañarte en tu aventura culinaria. ¡Bienvenido a nuestra comunidad de amantes de la cocina!</p>
+          </div>
+          <div class="col-12 col-md-6 text-center">
+            <figure>
+              <img src="../assets/contacto.jpg" alt="Plato apetecible"/>
+              <figcaption>
+                Photo by <a href="https://unsplash.com/@fifthlane?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Peter Dawn</a> on <a href="https://unsplash.com/photos/a-chef-holding-a-plate-with-a-sandwich-and-chips-mM-L0yx5LcQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
+              </figcaption>
+            </figure>
+          </div>
+        </div>    
       </section>
-      <section class="formContainer">
-        <h3>Contacto</h3>
-        <form action="" class="form">
-          <div class="nameSurname">
-            <div class="name">
-              <label for="name">Nombre</label>
-              <input type="text" placeholder="Juan" required />
+
+      <!-- Formulario de contacto -->
+
+      <section class="formContainer p-4 rounded shadow-sm">
+        <h3 class="text-center mb-4">Contacto</h3>
+        <form action="" class="form mx-auto">
+          <div class="row g-3 mb-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" id="name" class="form-control" placeholder="Juan" required />
             </div>
-            <div class="surname">
-              <label for="Surname">Apellido</label>
-              <input type="text" placeholder="Parra" required />
+            <div class="col-md-6">
+              <label for="Surname" class="form-label">Apellido</label>
+              <input type="text" id="surname" class="form-control" placeholder="Parra" required />
             </div>
           </div>
-          <div class="email">
-            <label for="email">Email</label>
-            <input type="email" placeholder="example@gmail.com" required />
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-control" placeholder="example@gmail.com" required />
           </div>
-          <div class="message">
-            <label for="message">Tu mensaje</label>
-            <textarea rows="4" placeholder="Quisiera compartir esta receta con ustedes..."></textarea>
+          <div class="mb-4">
+            <label for="message" class="form-label">Tu mensaje</label>
+            <textarea id="message" class="form-control" rows="4" placeholder="Quisiera compartir esta receta con ustedes..."></textarea>
           </div>
-          <button type="submit" class="submit">Enviar</button>
+          <button type="submit" class="mb-4 submit">Enviar</button>
         </form>
       </section>
     </main>
