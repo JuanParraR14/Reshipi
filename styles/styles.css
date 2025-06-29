@@ -201,8 +201,16 @@ footer a:hover {
 
 /* Welcome recetas */
 
-.desayunos {
+.recetasDesayunos {
   background-color: #fff8dc;
+}
+
+.recetasAlmuerzos {
+  background-color: #e6f4e6;
+}
+
+.recetasCenas {
+  background-color: #e3f2fd;
 }
 
 .welcomeRecetas {
@@ -213,7 +221,7 @@ footer a:hover {
   font-size: 3rem;
   font-weight: bolder;
   color: var(--font-color);
-  width: 700px;
+  width: 45%;
 }
 
 .divider {
@@ -366,6 +374,10 @@ textarea {
   .subNav p {
   font-size: 1.15rem;
   }
+
+  .welcomeRecetas h1 {
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -376,5 +388,23 @@ textarea {
 
   .subNav div {
     height: auto;
+  }
+
+  .welcomeRecetas h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  header img {
+  height: 50px;
+  }
+
+  footer img {
+  height: 50px;
+  }
+
+  .welcomeRecetas h1 {
+    font-size: 1.5rem;
   }
 }

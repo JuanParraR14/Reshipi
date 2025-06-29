@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="recetasAlmuerzos">
     <header>
       <nav class="navbar navbar-expand-lg py-3">
         <div class="container-fluid ms-lg-5 me-4">
@@ -24,8 +24,8 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorías</a>
                 <ul class="dropdown-menu text-end">
-                  <li><a class="dropdown-item" href="#">Desayunos</a></li>
-                  <li><a class="dropdown-item" href="almuerzos.html">Almuerzos</a></li>
+                  <li><a class="dropdown-item" href="desayunos.html">Desayunos</a></li>
+                  <li><a class="dropdown-item" href="#">Almuerzos</a></li>
                   <li><a class="dropdown-item" href="cenas.html">Cenas</a></li>
                 </ul>
               </li>
@@ -38,171 +38,197 @@
       </nav>
     </header>
     <main>
-      <section class="welcomeRecetas">
+
+      <!-- Sección de bienvenida -->
+
+      <section class="welcomeRecetas d-flex justify-content-center align-items-center text-center py-5">
         <h1>Descubre nuestras recetas de almuerzos que combinan tradición y sabor en cada bocado.</h1>
       </section>
-      <hr class="divider" />
-      <section class="recipe reverse">
-        <div class="recipeImgContainer">
-          <figure>
-            <img src="../assets/Receta4.jpg" alt="calabazas rellenas" />
-            <figcaption class="recipeCaption">
-              Photo by <a href="https://unsplash.com/@meguminachev?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Megumi Nachev</a> on <a href="https://unsplash.com/photos/tray-of-food-SUjRarYKGP4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="recipeContainer">
-          <h2 class="recipeTitle">Calabazas rellenas</h2>
-          <div class="recipeDetails">
-            <div class="ingredients">
-              <h3>Ingredientes:</h3>
-              <ul>
-                <li>4 calabazas pequeñas</li>
-                <li>1 cebolla</li>
-                <li>2 puerros</li>
-                <li>2 cucharadas de aceite de oliva</li>
-                <li>4 mazorcas de maíz</li>
-                <li>sal y pimienta al gusto</li>
-                <li>1 lata de choclo cremoso</li>
-                <li>1 taza de salsa bechamel</li>
-                <li>50 g de queso rallado</li>
-                <li>2 cucharadas de hierbas picadas</li>
-                <li>trocitos de mantequilla</li>
-                <li>100 g de queso blando</li>
-              </ul>
+      <hr class="divider my-4" />
+
+      <!-- Receta de Calabazas rellenas -->
+
+      <section class="container my-5">
+        <div class="row align-items-start">
+          <div class="col-md-6 order-2 order-md-1">
+            <h2 class="recipeTitle text-center mb-3">Calabazas rellenas</h2>
+            <div class="d-flex flex-column flex-lg-row">
+              <div class="procedure pe-3 mb-3 mb-md-0">
+                <h3 class="text-center mb-2">Ingredientes:</h3>
+                <ul>
+                  <li>4 calabazas pequeñas</li>
+                  <li>1 cebolla</li>
+                  <li>2 puerros</li>
+                  <li>2 cucharadas de aceite de oliva</li>
+                  <li>4 mazorcas de maíz</li>
+                  <li>sal y pimienta al gusto</li>
+                  <li>1 lata de choclo cremoso</li>
+                  <li>1 taza de salsa bechamel</li>
+                  <li>50 g de queso rallado</li>
+                  <li>2 cucharadas de hierbas picadas</li>
+                  <li>trocitos de mantequilla</li>
+                  <li>100 g de queso blando</li>
+                </ul>
+              </div>
+              <div class="vr d-none d-lg-block mx-3"></div>
+              <div class="procedure ps-md-3">
+                <h3 class="text-center mb-2">Procedimiento:</h3>
+                <p>Picar la cebolla y los puerros y sofreír en una sartén con el aceite de oliva. Desgranar las mazorcas e incorporar a la sartén. Salpimentar a gusto.</p>
+                <p>Mezclar en un recipiente las verduras, el choclo cremoso, la salsa bechamel, el queso rallado y sal y pimienta a gusto. Aromatizar con las hierbas picadas.</p>
+                <p>Cortar una tapa a las calabazas, ahuecarlas y salpimentar a gusto.</p>
+                <p>Colocar adentro un trocito de mantequilla, envolver en papel de aluminio y asar en horno precalentado a temperatura moderada durante 20 minutos o hasta que resulten tiernos.</p>
+                <p>Retirar, colocar cubitos de queso blando en el interior y rellenar con la crema de maíz.</p>
+                <p>Servir bien calientes acompañadas de galletas o pan de campo.</p>
+              </div>
             </div>
-            <div class="ingredientDivider"></div>
-            <div class="procedure">
-              <h3>Procedimiento:</h3>
-              <p>Picar la cebolla y los puerros y sofreír en una sartén con el aceite de oliva. Desgranar las mazorcas e incorporar a la sartén. Salpimentar a gusto.</p>
-              <p>Mezclar en un recipiente las verduras, el choclo cremoso, la salsa bechamel, el queso rallado y sal y pimienta a gusto. Aromatizar con las hierbas picadas.</p>
-              <p>Cortar una tapa a las calabazas, ahuecarlas y salpimentar a gusto.</p>
-              <p>Colocar adentro un trocito de mantequilla, envolver en papel de aluminio y asar en horno precalentado a temperatura moderada durante 20 minutos o hasta que resulten tiernos.</p>
-              <p>Retirar, colocar cubitos de queso blando en el interior y rellenar con la crema de maíz.</p>
-              <p>Servir bien calientes acompañadas de galletas o pan de campo.</p>
-            </div>
+          </div>
+          <div class="col-md-6 order-1 order-md-2">
+            <figure class="position-relative">
+              <img src="../assets/Receta4.jpg" class="img-fluid rounded" alt="calabazas rellenas" />
+              <figcaption class="recipeCaption position-absolute bottom-0 start-0 p-2">
+                Photo by <a href="https://unsplash.com/@meguminachev?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Megumi Nachev</a> on <a href="https://unsplash.com/photos/tray-of-food-SUjRarYKGP4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
+              </figcaption>
+            </figure>
           </div>
         </div>
       </section>
-      <hr class="divider" />
-      <section class="recipe">
-        <div class="recipeImgContainer">
-          <figure>
-            <img src="../assets/Receta5.jpg" alt="paella" />
-            <figcaption class="recipeCaption">
-              Photo by <a href="https://unsplash.com/@andoyc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Antonio Castellano</a> on <a href="https://unsplash.com/photos/fried-rice-on-black-cooking-pan-q32eI8SaxU8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="recipeContainer">
-          <h2 class="recipeTitle">Paella</h2>
-          <div class="recipeDetails">
-            <div class="ingredients">
-              <h3>Ingredientes:</h3>
-              <ul>
-                <li>2 cebollas</li>
-                <li>2 dientes de ajo</li>
-                <li>2 zanahorias</li>
-                <li>1 puerro</li>
-                <li>1 apio</li>
-                <li>1 kg de calamares</li>
-                <li>1 kg de mejillones</li>
-                <li>1 kg de almejas</li>
-                <li>1 kg de lomo de atún</li>
-                <li>½ kg de pulpo</li>
-                <li>1 cápsula de azafrán</li>
-                <li>½ kg de langostinos</li>
-                <li>¾ de arroz</li>
-                <li>150 ml de vino blanco</li>
-                <li>caldo de pescado</li>
-                <li>sal y pimienta, a gusto</li>
-                <li>1 pimentón</li>
-                <li>1 limón</li>
-                <li>1 cucharada de perejil picado</li>
-              </ul>
-            </div>
-            <div class="ingredientDivider"></div>
-            <div class="procedure">
-              <h3>Procedimiento:</h3>
-              <p>Picar y sofreír en una paellera las cebollas, los dientes de ajo, las zanahorias, el puerro y el apio. Cuando las verduras estén aún crocantes, agregar el arroz, remover y cubrir con el caldo de pescado y con el vino blanco.</p>
-              <p>Incorporar los calamares en aros, los tentáculos limpios y el lomo de atún en trozos. Salpimentar a gusto. Disolver el azafrán en una cucharada de caldo e incorporar a la preparación. Agregar caldo a medida que lo requiera. Luego acomodar los mejillones y las almejas limpios. Por último, agregar el pulpo precocido y cortado en trozos y los langostinos limpios. Verificar los condimentos y completar la cocción hasta que el arroz esté en su punto. Espolvorear con el perejil picado y decorar con langostinos enteros y gajos de limón y pimentón cortado en cuadraditos finos.</p>
+
+      <hr class="divider my-4" />
+
+      <!-- Receta de Paella -->
+      
+      <section class="container my-5">
+        <div class="row align-items-start">
+          <div class="col-md-6 order-md-1">
+            <figure class="position-relative">
+              <img src="../assets/Receta5.jpg" class="img-fluid rounded" alt="paella" />
+              <figcaption class="recipeCaption position-absolute bottom-0 start-0 p-2">
+                Photo by <a href="https://unsplash.com/@andoyc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Antonio Castellano</a> on <a href="https://unsplash.com/photos/fried-rice-on-black-cooking-pan-q32eI8SaxU8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 order-md-2">
+            <h2 class="recipeTitle text-center mb-3">Paella</h2>
+            <div class="d-flex flex-column flex-lg-row">
+              <div class="procedure pe-3 mb-3 mb-md-0">
+                <h3 class="text-center mb-2">Ingredientes:</h3>
+                <ul>
+                  <li>2 cebollas</li>
+                  <li>2 dientes de ajo</li>
+                  <li>2 zanahorias</li>
+                  <li>1 puerro</li>
+                  <li>1 apio</li>
+                  <li>1 kg de calamares</li>
+                  <li>1 kg de mejillones</li>
+                  <li>1 kg de almejas</li>
+                  <li>1 kg de lomo de atún</li>
+                  <li>½ kg de pulpo</li>
+                  <li>1 cápsula de azafrán</li>
+                  <li>½ kg de langostinos</li>
+                  <li>¾ de arroz</li>
+                  <li>150 ml de vino blanco</li>
+                  <li>caldo de pescado</li>
+                  <li>sal y pimienta, a gusto</li>
+                  <li>1 pimentón</li>
+                  <li>1 limón</li>
+                  <li>1 cucharada de perejil picado</li>
+                </ul>
+              </div>
+              <div class="vr d-none d-lg-block mx-3"></div>
+              <div class="procedure ps-md-3">
+                <h3 class="text-center mb-2">Procedimiento:</h3>
+                <p>Picar y sofreír en una paellera las cebollas, los dientes de ajo, las zanahorias, el puerro y el apio. Cuando las verduras estén aún crocantes, agregar el arroz, remover y cubrir con el caldo de pescado y con el vino blanco.</p>
+                <p>Incorporar los calamares en aros, los tentáculos limpios y el lomo de atún en trozos. Salpimentar a gusto. Disolver el azafrán en una cucharada de caldo e incorporar a la preparación. Agregar caldo a medida que lo requiera. Luego acomodar los mejillones y las almejas limpios. Por último, agregar el pulpo precocido y cortado en trozos y los langostinos limpios. Verificar los condimentos y completar la cocción hasta que el arroz esté en su punto. Espolvorear con el perejil picado y decorar con langostinos enteros y gajos de limón y pimentón cortado en cuadraditos finos.</p>
+              </div>
             </div>
           </div>
-        </div>
+        </div>  
       </section>
-      <hr class="divider" />
-      <section class="recipe reverse">
-        <div class="recipeImgContainer">
-          <figure>
-            <img src="../assets/Receta6.jpg" alt="codornices crocantes" />
-            <figcaption class="recipeCaption">
+
+      <hr class="divider my-4" />
+
+      <!-- Receta de Codornices crocantes -->
+
+      <section class="container my-5">
+        <div class="row align-items-start">
+          <div class="col-md-6 order-2 order-md-1">
+            <h2 class="recipeTitle text-center mb-3">Codornices crocantes</h2>
+            <div class="d-flex flex-column flex-lg-row">
+              <div class="procedure pe-3 mb-3 mb-md-0">
+                <h3 class="text-center mb-2">Ingredientes:</h3>
+                <ul>
+                  <li>4 codornices</li>
+                  <li>sal y pimienta a gusto</li>
+                  <li>1 clara de huevo</li>
+                  <li>2 cucharadas de cacahuetes procesados</li>
+                  <li>¼ pimentón rojo picado</li>
+                  <li>1 cucharada de pan blanco rallado</li>
+                  <li>2 cebollas cabezonas</li>
+                  <li>hierbas frescas</li>
+                  <li>100 ml de caldo de ave</li>
+                  <li>100 ml de vino tinto</li>
+                  <li>zumo de 1 limón</li>
+                </ul>
+              </div>
+              <div class="vr d-none d-lg-block mx-3"></div>
+              <div class="procedure ps-md-3">
+                <h3 class="text-center mb-2">Procedimiento:</h3>
+                <p>Limpiar las codornices cuidando de que no queden plumas. Lavarlas y secarlas muy bien. Condimentar con sal y pimienta al gusto por dentro y por fuera. Mezclar en un recipiente, la clara de huevo ligeramente batida con 2 cucharadas de cacahuetes procesados, el pimentón rojo cortado en trozos pequeños y el pan blanco rallado; salpimentar. Integrar bien todos los ingredientes.</p>
+                <p>Untar la superficie de cada codorniz con la mezcla hasta obtener una capa pareja. Colocar 1/2 cebolla cabezona y 1 ramo de hierbas frescas en el interior de cada ave. Acomodar las codornices sobre una rejilla en una placa para horno y verter el caldo de ave, el vino tinto y el zumo de limón como fondo de cocción. Cocinar en horno a 200°C de 35 a 40 minutos. Servir con variedad de hongos salteados y hojas verdes.</p>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-6 order-1 order-md-2">
+            <figure class="position-relative">
+              <img src="../assets/Receta6.jpg" class="img-fluid rounded" alt="codornices crocantes" />
+              <figcaption class="recipeCaption position-absolute bottom-0 start-0 p-2">
               Photo by Alpha on <a href="https://www.flickr.com/photos/avlxyz/2971620008" target="_blank">Flickr</a>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="recipeContainer">
-          <h2 class="recipeTitle">Codornices crocantes</h2>
-          <div class="recipeDetails">
-            <div class="ingredients">
-              <h3>Ingredientes:</h3>
-              <ul>
-                <li>4 codornices</li>
-                <li>sal y pimienta a gusto</li>
-                <li>1 clara de huevo</li>
-                <li>2 cucharadas de cacahuetes procesados</li>
-                <li>¼ pimentón rojo picado</li>
-                <li>1 cucharada de pan blanco rallado</li>
-                <li>2 cebollas cabezonas</li>
-                <li>hierbas frescas</li>
-                <li>100 ml de caldo de ave</li>
-                <li>100 ml de vino tinto</li>
-                <li>zumo de 1 limón</li>
-              </ul>
-            </div>
-            <div class="ingredientDivider"></div>
-            <div class="procedure">
-              <h3>Procedimiento:</h3>
-              <p>Limpiar las codornices cuidando de que no queden plumas. Lavarlas y secarlas muy bien. Condimentar con sal y pimienta al gusto por dentro y por fuera. Mezclar en un recipiente, la clara de huevo ligeramente batida con 2 cucharadas de cacahuetes procesados, el pimentón rojo cortado en trozos pequeños y el pan blanco rallado; salpimentar. Integrar bien todos los ingredientes.</p>
-              <p>Untar la superficie de cada codorniz con la mezcla hasta obtener una capa pareja. Colocar 1/2 cebolla cabezona y 1 ramo de hierbas frescas en el interior de cada ave. Acomodar las codornices sobre una rejilla en una placa para horno y verter el caldo de ave, el vino tinto y el zumo de limón como fondo de cocción. Cocinar en horno a 200°C de 35 a 40 minutos. Servir con variedad de hongos salteados y hojas verdes.</p>
-            </div>
+              </figcaption>
+            </figure>
           </div>
         </div>
       </section>
+
       <hr class="divider" />
-      <section class="recipe">
-        <div class="recipeImgContainer">
-          <figure>
-            <img src="../assets/Receta7.jpg" alt="raviolis con salsa suave de pimentones" />
-            <figcaption class="recipeCaption">
+
+      <!-- Receta de Raviolis con salsa suave de pimentones -->
+
+      <section class="container my-5">
+        <div class="row align-items-start">
+          <div class="col-md-6 order-md-1">
+            <figure class="position-relative">
+              <img src="../assets/Receta7.jpg" class="img-fluid rounded" alt="raviolis con salsa suave de pimentones" />
+              <figcaption class="recipeCaption position-absolute bottom-0 start-0 p-2">
               Photo by <a href="https://unsplash.com/@rafaidrovofoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Rafael Idrovo Espinoza</a> on <a href="https://unsplash.com/photos/a-bowl-of-pasta-and-bread-on-a-table-Yjz1204A13E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="recipeContainer">
-          <h2 class="recipeTitle">Raviolis con salsa suave de pimentones</h2>
-          <div class="recipeDetails">
-            <div class="ingredients">
-              <h3>Ingredientes:</h3>
-              <ul>
-                <li>400 g de raviolis de pollo</li>
-                <li>4 pimentones rojos</li>
-                <li>2 cucharadas de aceite ed oliva</li>
-                <li>2 dientes de ajo</li>
-                <li>1 cucharadita de pimienta en grano</li>
-                <li>70 ml de caldo de verduras</li>
-                <li>100 ml de crema de leche</li>
-                <li>1 cucharada de hierbas picadas</li>
-              </ul>
-            </div>
-            <div class="ingredientDivider"></div>
-            <div class="procedure">
-              <h3>Procedimiento:</h3>
-              <p>Cocer los raviolis en abundante agua hirviendo con sal hasta que estén a punto. Retirar con una espumadera y guardar aparte. Asar los pimentones. Quitarles la piel, despepitarlos y pasarlos por el procesador de alimentos.</p>
-              <p>Colocar el aceite, los dientes de ajo machacados y los granos de pimienta en una sartén. Llevar al fuego y calentar. Incorporar los pimentones. Añadir el caldo de verduras y la crema de leche. Cocer un momento y salar a gusto.</p>
-              <p>Colocar la pasta cocida en la sartén junto con la salsa de pimentones y calentar. Servir espolvoreado con hierbas finamente picadas y láminas delgadas de queso.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 order-md-2">
+            <h2 class="recipeTitle text-center mb-3">Raviolis con salsa suave de pimentones</h2>
+            <div class="d-flex flex-column flex-lg-row">
+              <div class="procedure pe-3 mb-3 mb-md-0">
+                <h3 class="text-center mb-2">Ingredientes:</h3>
+                <ul>
+                  <li>400 g de raviolis de pollo</li>
+                  <li>4 pimentones rojos</li>
+                  <li>2 cucharadas de aceite ed oliva</li>
+                  <li>2 dientes de ajo</li>
+                  <li>1 cucharadita de pimienta en grano</li>
+                  <li>70 ml de caldo de verduras</li>
+                  <li>100 ml de crema de leche</li>
+                  <li>1 cucharada de hierbas picadas</li>
+                </ul>
+              </div>
+              <div class="vr d-none d-lg-block mx-3"></div>
+              <div class="procedure ps-md-3">
+                <h3 class="text-center mb-2">Procedimiento:</h3>
+                <p>Cocer los raviolis en abundante agua hirviendo con sal hasta que estén a punto. Retirar con una espumadera y guardar aparte. Asar los pimentones. Quitarles la piel, despepitarlos y pasarlos por el procesador de alimentos.</p>
+                <p>Colocar el aceite, los dientes de ajo machacados y los granos de pimienta en una sartén. Llevar al fuego y calentar. Incorporar los pimentones. Añadir el caldo de verduras y la crema de leche. Cocer un momento y salar a gusto.</p>
+                <p>Colocar la pasta cocida en la sartén junto con la salsa de pimentones y calentar. Servir espolvoreado con hierbas finamente picadas y láminas delgadas de queso.</p>
+              </div>
             </div>
           </div>
-        </div>
+        </div>  
       </section>
     </main>
     <footer class="text-center py-4">
