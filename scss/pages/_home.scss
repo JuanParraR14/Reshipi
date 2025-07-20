@@ -1,0 +1,61 @@
+@use "../utils/variables";
+
+/* Sección de bienvenida */
+.welcome {
+   background-color: variables.$welcome-color;
+   h1 {
+      font-size: 48px;
+      font-weight: bolder;
+      color: variables.$text-color;
+      width: 100%;
+   }
+   img {
+      width: 100%;
+      max-width: 675px;
+      border-radius: 4px;
+   }
+   figcaption {
+      font-size: 10px;
+      font-weight: bolder;
+      color: variables.$figcaption-color;
+      a {
+         color: variables.$figcaption-color;
+      }
+   }
+   p {
+      font-size: 20px;
+      color: variables.$text-color;
+      font-family: variables.$font-family-main;
+   }
+}
+
+/* Subnavegación */
+.subNav {
+   overflow: hidden;
+   div {
+      height: 500px;
+      border: none;
+      border-radius: 0px;
+      img {
+         border-radius: 0px;
+      }
+   }
+   img {
+      width: 100%;
+      opacity: 0.375;
+   }
+   figcaption {
+      font-size: 10px;
+      font-weight: bolder;
+      color: variables.$figcaption-color;
+      a {
+         color: variables.$figcaption-color;
+      }
+   }
+   h3, p {
+      color: variables.$text-color
+   }
+   p {
+      font-size: 1.25rem;
+   }
+}

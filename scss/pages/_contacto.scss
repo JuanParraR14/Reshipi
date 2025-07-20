@@ -1,0 +1,28 @@
+@use "../utils/variables";
+@use "../utils/mixins";
+
+
+/* Formulario de contacto */
+.form {
+   max-width: 500px;
+   label {
+      font-size: 20px;
+      color: variables.$text-color;
+   }
+   input {
+      @include mixins.form
+   }
+}
+
+.formContainer {
+   background-color: variables.$welcome-color;
+   h3 {
+      font-size: 32px;
+      font-weight: variables.$font-weight-principal;
+      color: variables.$text-color;
+   }
+}
+
+textarea {
+   @include mixins.form
+}

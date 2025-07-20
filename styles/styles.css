@@ -1,6 +1,5 @@
-/* Fuente */
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-
 /* Configuración general */
 *,
 ::before,
@@ -9,10 +8,6 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-}
-
-:root {
-  --font-color: #4b2e2e;
 }
 
 body {
@@ -25,7 +20,7 @@ body {
 /* Menú de navegación */
 header {
   background-color: #fff9e6;
-  color: var(--font-color);
+  color: #4b2e2e;
 }
 
 header img {
@@ -35,14 +30,13 @@ header img {
 .navLinks li a {
   text-decoration: none;
   font-weight: bold;
-  color: var(--font-color);
+  color: #4b2e2e;
   font-size: 26px;
-  font-family: "raleway", sans-serif
+  font-family: "raleway", sans-serif;
 }
-
 .navLinks li a:hover {
   color: #298294;
-  background-color: #fff9e6 ;
+  background-color: #fff9e6;
 }
 
 .dropdown ul {
@@ -52,10 +46,9 @@ header img {
   list-style: none;
   z-index: 1000;
 }
-
 .dropdown ul li a {
   text-decoration: none;
-  color: var(--font-color);
+  color: #4b2e2e;
   display: block;
 }
 
@@ -63,78 +56,65 @@ header img {
 .welcome {
   background-color: rgba(255, 228, 196, 0.6);
 }
-
 .welcome h1 {
   font-size: 48px;
   font-weight: bolder;
-  color: var(--font-color);
+  color: #4b2e2e;
   width: 100%;
 }
-
 .welcome img {
   width: 100%;
   max-width: 675px;
   border-radius: 4px;
 }
-
 .welcome figcaption {
   font-size: 10px;
   font-weight: bolder;
   color: rgba(75, 46, 46, 0.5);
 }
-
 .welcome figcaption a {
   color: rgba(75, 46, 46, 0.5);
 }
+.welcome p {
+  font-size: 20px;
+  color: #4b2e2e;
+  font-family: "raleway", sans-serif;
+}
 
 /* Subnavegación */
-
 .subNav {
   overflow: hidden;
 }
-
 .subNav div {
   height: 500px;
   border: none;
   border-radius: 0px;
 }
-
 .subNav div img {
   border-radius: 0px;
 }
-
 .subNav img {
   width: 100%;
   opacity: 0.375;
 }
-
 .subNav figcaption {
   font-size: 10px;
   font-weight: bolder;
   color: rgba(75, 46, 46, 0.5);
 }
-
 .subNav figcaption a {
   color: rgba(75, 46, 46, 0.5);
 }
-
-.subNav h3,
-.subNav p {
-  color: var(--font-color);
+.subNav h3, .subNav p {
+  color: #4b2e2e;
 }
-
-.subNav h3 {
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
 .subNav p {
   font-size: 1.25rem;
 }
 
 .btn.custom-btn {
   background-color: #ffb343;
-  color: var(--font-color);
+  color: #4b2e2e;
   border: none;
   border-radius: 5px;
   transition: background-color 0.3s;
@@ -142,65 +122,74 @@ header img {
   font-weight: lighter;
 }
 
+.submit {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #4b2e2e;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "raleway", sans-serif;
+}
+
 .btn.custom-btn:hover {
   background-color: #ffc46d;
   text-decoration: underline;
+  color: #4b2e2e;
+  font-weight: normal;
 }
 
 /* Sección de reviews */
 .reviews {
   background-color: rgba(255, 228, 196, 0.6);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .review {
   border-radius: 12px;
 }
-
 .review .card-text {
   font-size: 18px;
   font-weight: 600;
+  font-family: "raleway", sans-serif;
+  color: #4b2e2e;
 }
-
 .review .icon {
   font-size: 50px;
   color: #6c757d;
 }
-
 .review p:last-of-type {
   font-size: 16px;
+  font-family: "raleway", sans-serif;
+  color: #4b2e2e;
 }
 
 /* Footer */
 footer {
   background-color: #fff9e6;
-  color: var(--font-color);
+  color: #4b2e2e;
 }
-
 footer img {
   height: 100px;
 }
-
 footer .logosSociales img {
   height: 40px;
 }
-
 footer p {
   color: rgba(75, 46, 46, 0.5);
 }
-
 footer a {
   color: #ffb703;
   text-decoration: none;
 }
-
 footer a:hover {
   text-decoration: underline;
 }
 
 /* Desayunos, almuerzos y cenas */
-
 /* Welcome recetas */
-
 .recetasDesayunos {
   background-color: #fff8dc;
 }
@@ -216,11 +205,10 @@ footer a:hover {
 .welcomeRecetas {
   height: 50vh;
 }
-
 .welcomeRecetas h1 {
   font-size: 3rem;
   font-weight: bolder;
-  color: var(--font-color);
+  color: #4b2e2e;
   width: 45%;
 }
 
@@ -229,148 +217,110 @@ footer a:hover {
 }
 
 /* Estilo de recetas */
-
 .recipeCaption {
   font-weight: bolder;
   color: #fff8dc;
   font-size: 0.8rem;
 }
-
 .recipeCaption a {
   color: #fff8dc;
 }
 
 .recipeTitle {
   font-size: 48px;
-  color: var(--font-color);
+  font-family: "raleway", sans-serif;
+  color: #4b2e2e;
   font-weight: bolder;
 }
 
 .procedure {
   font-family: "raleway", sans-serif;
-  color: var(--font-color);
-}
-
-/* Contacto */
-
-.welcome p {
-  font-size: 20px;
-  color: var(--font-color);
-}
-
-.welcome img {
-  width: 100%;
-  max-width: 675px;
-  border-radius: 4px;
+  color: #4b2e2e;
 }
 
 /* Formulario de contacto */
-
 .form {
   max-width: 500px;
+}
+.form label {
+  font-size: 20px;
+  color: #4b2e2e;
+}
+.form input {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  font-family: "raleway", sans-serif;
 }
 
 .formContainer {
   background-color: rgba(255, 228, 196, 0.6);
 }
-
 .formContainer h3 {
   font-size: 32px;
   font-weight: bold;
-  color: var(--font-color);
-}
-
-.form label {
-  font-size: 20px;
-  color: var(--font-color);
-}
-
-.form input {
-  background: #ffffff;
-  border: 1px solid #e0e0e0;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-  border-radius: 8px;
-  width: 100%;
-  height: 35px;
-  font-size: 16px;
+  color: #4b2e2e;
 }
 
 textarea {
-  background: #ffffff;
+  background-color: #ffffff;
   border: 1px solid #e0e0e0;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
   width: 100%;
+  height: 50px;
   font-size: 16px;
-  font-family: "raleway", sans-serif;
-}
-
-.submit {
-  width: 100%;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 8px;
-  background-color: var(--font-color);
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-  color: #fff;
-  cursor: pointer;
   font-family: "raleway", sans-serif;
 }
 
 /* Media queries */
-
 @media (max-width: 991px) {
   .welcome h1 {
     font-size: 2.5rem;
   }
-
   .subNav div {
     height: 375px;
   }
-
   .subNav img {
     height: 100%;
   }
-
   .subNav h3 {
-  font-size: 2.15rem;
-  font-weight: bold;
+    font-size: 2.15rem;
+    font-weight: bold;
   }
-
   .subNav p {
-  font-size: 1.15rem;
+    font-size: 1.15rem;
   }
-
   .welcomeRecetas h1 {
     font-size: 2.5rem;
   }
 }
-
 @media (max-width: 768px) {
   .welcome h1 {
     font-size: 2rem;
     margin-bottom: 2rem;
   }
-
   .subNav div {
     height: auto;
   }
-
   .welcomeRecetas h1 {
     font-size: 2rem;
   }
 }
-
 @media (max-width: 575px) {
   header img {
-  height: 50px;
+    height: 50px;
   }
-
   footer img {
-  height: 50px;
+    height: 50px;
   }
-
   .welcomeRecetas h1 {
     font-size: 1.5rem;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */

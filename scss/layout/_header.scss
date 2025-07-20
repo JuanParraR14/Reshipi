@@ -1,0 +1,13 @@
+@use "../utils/variables";
+
+/* Menú de navegación */
+header {
+   background-color: #fff9e6;
+   color: variables.$text-color;
+}
+
+header {
+   img {
+      height: 100px;
+   }
+}

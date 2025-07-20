@@ -1,0 +1,26 @@
+@use "../utils/variables";
+@use "../utils/mixins";
+
+/* Sección de reviews */
+.reviews {
+   @include mixins.card-style;
+}
+
+.review {
+   border-radius: 12px;
+   .card-text {
+      font-size: 18px;
+      font-weight: 600;
+      font-family: variables.$font-family-main;
+      color: variables.$text-color;
+   }
+   .icon {
+      font-size: 50px;
+      color: #6c757d;
+   }
+   p:last-of-type {
+      font-size: 16px;
+      font-family: variables.$font-family-main;
+      color: variables.$text-color;
+   }
+}

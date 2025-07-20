@@ -1,0 +1,23 @@
+@use "../utils/variables";
+
+/* Footer */
+footer {
+   background-color: #fff9e6;
+   color: variables.$text-color;
+   img {
+      height: 100px;
+   }
+   .logosSociales img {
+      height: 40px;
+   }
+   p {
+      color: variables.$figcaption-color;
+   }
+   a {
+      color: #ffb703;
+      text-decoration: none;
+      &:hover {
+         text-decoration: underline;
+      }
+   }
+}

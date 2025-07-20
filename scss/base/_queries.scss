@@ -1,0 +1,67 @@
+@use "../utils/variables";
+
+/* Media queries */
+@media (max-width: 991px) {
+   .welcome {
+      h1 {
+         font-size: 2.5rem;
+      }
+   }
+   .subNav {
+      div {
+         height: 375px;
+      }
+      img {
+         height: 100%;
+      }
+      h3 {
+         font-size: 2.15rem;
+         font-weight: variables.$font-weight-principal;
+      }
+      p {
+         font-size: 1.15rem;
+      }
+   }
+   .welcomeRecetas {
+      h1 {
+         font-size: 2.5rem;
+      }
+   }
+}
+
+@media (max-width: 768px) {
+   .welcome {
+      h1 {
+         font-size: 2rem;
+         margin-bottom: 2rem;
+      }
+   }
+   .subNav {
+      div {
+         height: auto;
+      }
+   }
+   .welcomeRecetas {
+      h1 {
+         font-size: 2rem;
+      }
+   }
+}
+
+@media (max-width: 575px) {
+   header {
+      img {
+         height: 50px;
+      }
+   }
+   footer {
+      img {
+         height: 50px;
+      }
+   }
+   .welcomeRecetas {
+      h1 {
+         font-size: 1.5rem;
+      }
+   }
+}

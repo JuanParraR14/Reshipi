@@ -1,0 +1,35 @@
+@use "../utils/variables";
+
+.navLinks {
+   li {
+      a {
+         text-decoration: none;
+         font-weight: variables.$font-weight-principal;
+         color: variables.$text-color;
+         font-size: 26px;
+         font-family: variables.$font-family-main;
+
+         &:hover {
+         color: #298294;
+         background-color: #fff9e6 ;
+         }
+      }
+   }
+}
+
+.dropdown {
+   ul {
+      display: none;
+      position: absolute;
+      background-color: #fff9e6;
+      list-style: none;
+      z-index: 1000;
+      li {
+         a {
+            text-decoration: none;
+            color: variables.$text-color;
+            display: block;
+         }
+      }
+   }
+}

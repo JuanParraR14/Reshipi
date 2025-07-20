@@ -1,0 +1,16 @@
+@use "../utils/variables";
+@use "../utils/extends";
+
+.btn.custom-btn {
+   @extend %btn-base;
+   &:hover {
+      background-color: #ffc46d;
+      text-decoration: underline;
+      color: variables.$text-color;
+      font-weight: normal;
+   }
+}
+
+.submit {
+   @extend %btn-submit;
+}

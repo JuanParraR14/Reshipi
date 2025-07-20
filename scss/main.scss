@@ -1,0 +1,19 @@
+@use "utils/variables";
+@use "utils/mixins";
+@use "utils/animations";
+
+@use "base/reset";
+@use "base/typography";
+
+@use "layout/header";
+@use "layout/navigation";
+
+@use "pages/home";
+@use "components/buttons";
+@use "utils/extends";
+@use "components/cards";
+@use "layout/footer";
+@use "pages/recetas";
+@use "pages/contacto";
+
+@use "base/queries";

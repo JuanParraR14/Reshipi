@@ -1,0 +1,51 @@
+@use "../utils/variables";
+
+/* Desayunos, almuerzos y cenas */
+/* Welcome recetas */
+.recetasDesayunos {
+  background-color: #fff8dc;
+}
+
+.recetasAlmuerzos {
+  background-color: #e6f4e6;
+}
+
+.recetasCenas {
+  background-color: #e3f2fd;
+}
+
+.welcomeRecetas {
+   height: 50vh;
+   h1 {
+      font-size: 3rem;
+      font-weight: bolder;
+      color: variables.$text-color;
+      width: 45%;
+   }
+}
+
+.divider {
+   border-bottom: 5px solid variables.$text-color;
+}
+
+/* Estilo de recetas */
+.recipeCaption {
+   font-weight: bolder;
+   color: #fff8dc;
+   font-size: 0.8rem;
+   a {
+      color: #fff8dc;
+   }
+}
+
+.recipeTitle {
+   font-size: 48px;
+   font-family: variables.$font-family-main;
+   color: variables.$text-color;
+   font-weight: bolder;
+}
+
+.procedure {
+   font-family: variables.$font-family-main;
+   color: variables.$text-color;
+}
