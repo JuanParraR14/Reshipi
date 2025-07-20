@@ -1,6 +1,5 @@
 @use "utils/variables";
 @use "utils/mixins";
-@use "utils/animations";
 
 @use "base/reset";
 @use "base/typography";
@@ -17,3 +16,5 @@
 @use "pages/contacto";
 
 @use "base/queries";
+
+@use "utils/animations";
