@@ -3,7 +3,7 @@
 
 /* Sección de reviews */
 .reviews {
-   @include mixins.card-style;
+   @include mixins.card-style(rgba(255, 228, 196, 0.6), rgba(0, 0, 0, 0.5));
 }
 
 .review {

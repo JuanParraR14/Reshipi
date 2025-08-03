@@ -10,7 +10,7 @@
       color: variables.$text-color;
    }
    input {
-      @include mixins.form
+      @include mixins.form(#ffffff, #e0e0e0, rgba(0, 0, 0, 0.05), 8px, 50px, 18px);
    }
 }
 
@@ -24,5 +24,5 @@
 }
 
 textarea {
-   @include mixins.form
+   @include mixins.form(#f9f9f9, #cccccc, rgba(0, 0, 0, 0.1), 12px, 150px, 16px);
 }
