@@ -35,7 +35,7 @@ header img {
   font-family: "raleway", sans-serif;
 }
 .navLinks li a:hover {
-  color: #298294;
+  color: #1a4f56;
   background-color: #fff9e6;
 }
 
@@ -113,7 +113,7 @@ header img {
 }
 
 .btn.custom-btn {
-  background-color: #ffb343;
+  background-color: #ffc061;
   color: #4b2e2e;
   border: none;
   border-radius: 5px;
